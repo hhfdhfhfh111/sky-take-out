@@ -20,4 +20,6 @@ public interface EmployeeService {
 
     //分页查询
     PageResult pagequery(EmployeePageQueryDTO employeePageQueryDTO);
+
+    void startorstop(Integer status, Long id);
 }
